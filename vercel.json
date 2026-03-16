@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "public": true,
+  "headers": [
+    {
+      "source": "/getudid.mobileconfig",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/x-apple-aspen-config"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

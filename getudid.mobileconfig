@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>URL</key>
+        <string>https://PLACEHOLDER.vercel.app/api/enroll</string>
+        <key>DeviceAttributes</key>
+        <array>
+            <string>UDID</string>
+            <string>PRODUCT</string>
+            <string>VERSION</string>
+        </array>
+    </dict>
+    <key>PayloadOrganization</key>
+    <string>Get UDID</string>
+    <key>PayloadDisplayName</key>
+    <string>Get Device UDID</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>59dcfb6c-13fb-49e0-a034-bf272cfd8f59</string>
+    <key>PayloadIdentifier</key>
+    <string>com.getudid.app</string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+</dict>
+</plist>
